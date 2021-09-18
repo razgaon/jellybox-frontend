@@ -22,7 +22,12 @@
     "date-fns": "^2.16.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "@fortawesome/fontawesome-free": "5.15.3",
+    "@popperjs/core": "2.10.1",
+    "@tailwindcss/forms": "0.3.3",
+    "chart.js": "3.5.1",
+    "tailwindcss": "2.2.15"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.6",
