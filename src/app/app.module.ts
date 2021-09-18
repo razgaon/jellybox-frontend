@@ -12,6 +12,7 @@ import { TableDropdownComponent } from "./components/dropdowns/table-dropdown/ta
 import { PagesDropdownComponent } from "./components/dropdowns/pages-dropdown/pages-dropdown.component";
 import { NotificationDropdownComponent } from "./components/dropdowns/notification-dropdown/notification-dropdown.component";
 import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user-dropdown.component";
+import {RegisterComponent} from "./views/register/register.component";
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user
     TableDropdownComponent,
     PagesDropdownComponent,
     NotificationDropdownComponent,
-    UserDropdownComponent
+    UserDropdownComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
