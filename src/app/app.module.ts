@@ -13,6 +13,7 @@ import { PagesDropdownComponent } from "./components/dropdowns/pages-dropdown/pa
 import { NotificationDropdownComponent } from "./components/dropdowns/notification-dropdown/notification-dropdown.component";
 import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user-dropdown.component";
 import {RegisterComponent} from "./views/register/register.component";
+import { CalendarComponent } from './components/calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {RegisterComponent} from "./views/register/register.component";
     PagesDropdownComponent,
     NotificationDropdownComponent,
     UserDropdownComponent,
-    RegisterComponent
+    RegisterComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
